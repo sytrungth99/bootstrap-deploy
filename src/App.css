@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn-btn-primary {
+  color: black;
+}
+button.btn.btn-info {
+  color: red;
+}
+ul.scroll-bar {
+  min-height: 20px;
+  max-height: 300px;
+  border: 1px solid;
+  overflow: auto;
 }
